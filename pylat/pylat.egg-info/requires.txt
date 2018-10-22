@@ -1,0 +1,7 @@
+xmlrunner
+
+[dev]
+check-manifest
+
+[test]
+coverage

@@ -1,0 +1,15 @@
+README.md
+setup.py
+pylat/__init__.py
+pylat/__main__.py
+pylat/cmdclient.py
+pylat/configvalues.py
+pylat/query.py
+pylat/testrunner.py
+pylat.egg-info/PKG-INFO
+pylat.egg-info/SOURCES.txt
+pylat.egg-info/dependency_links.txt
+pylat.egg-info/requires.txt
+pylat.egg-info/top_level.txt
+pylat/setuptests/__init__.py
+pylat/setuptests/qb.py

@@ -1,0 +1,6 @@
+{
+	"tests" : ["tests.reset_test_driver"],
+    "scc_path" : "/opt/legrand/solstice/bin/scc", 
+    "device_MAC" : "00:04:74:16:08:3E",
+    "output_file" : "results_configBleDevice.txt"
+}

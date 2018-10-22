@@ -1,6 +1,0 @@
-{
-	"tests" : ["tests.test_ble_device"],
-    "scc_path" : "/opt/legrand/solstice/bin/scc", 
-    "device_MAC" : "00:04:74:16:12:91",
-    "output_file" : "results_configBleDevice.txt"
-}

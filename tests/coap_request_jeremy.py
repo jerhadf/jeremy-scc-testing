@@ -2,6 +2,7 @@ import unittest
 import random
 import json
 from . import scc
+from pylat import get_config
 
 import abc
 
@@ -33,7 +34,7 @@ class Coap_Request_Tests(unittest.TestCase):
             else:
                 return toRet
 
-###JEREMY FACTORY RESET TEST
+    ###JEREMY FACTORY RESET TEST
     def test_fac_rst(self):
         """Perform factory reset on specified device and verify that the device paremeters were reset to defaults."""
 
@@ -78,7 +79,7 @@ class Coap_Request_Tests(unittest.TestCase):
             #! below is just speculation on what the assert would be (not working!) 
             #! test fails if any of the actual default values are not equal to expected default values 
             self.assertEqual(data['default'], defaultVals[ep], "default value is {0}. should be {1}".format(data['default'], defaultVals[ep]))
-            
+
     @classmethod
     def tearDownClass(cls):
         """Runs after all test_* functions."""

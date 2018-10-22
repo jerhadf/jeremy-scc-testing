@@ -30,3 +30,5 @@ class Test_BLE_Device(coap_request_tests.Coap_Request_Tests):
         if payload != None:
             requestString = requestString + " --payload {}".format(payload)
         return scc.run_scc(self.sccPath, requestString, self.outputFile)
+
+        

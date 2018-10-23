@@ -1,0 +1,265 @@
+const uint8_t RSSI_Name[] =  "RSSI";
+        .dflt =         DEFAULT_RSSI
+
+const uint8_t LQI_Name[] =  "LQI";
+        .dflt =         DEFAULT_LQI
+
+const uint8_t UpTime_Name[] =  "Up Time";
+        .dflt = 0
+
+const uint8_t RunTime_Name[] =  "Run Time";
+        .dflt = 0
+
+const uint8_t AntSelect_Name[] =  "Antenna Sel";
+        .dflt = DEFAULT_ANTENNA
+
+const uint8_t TX_Power_Name[] =  "TX Power";
+        .dflt =         SIXLOW_TX_POWER
+
+const uint8_t McastHop_Name[] =  "MCast TTL";
+uint16_t McastHop_Status;
+        .dflt =         DEFAULT_MCASTHOP
+
+const uint8_t LED_Enable_Name[] =  "LED En";
+        .dflt =         DEFAULT_LED_EN
+
+const uint8_t Restore_Name[] =  "Restore";
+        .dflt =         DEFAULT_RESTORE
+
+const uint8_t Voltage_Name[] =  "Voltage";
+        .dflt = 0
+
+const uint8_t Current_Name[] =  "Current";
+        .dflt = 0
+
+const uint8_t Power_Name[] =  "Power";
+        .dflt =         0
+
+const uint8_t Energy_Name[] =  "Energy";
+        .dflt = 0
+
+const uint8_t BaseMode_Name[] =  "BaseMode";
+        .dflt = 0
+
+const uint8_t BaseWatts_Name[] =  "BaseWatts";
+        .dflt = 0
+
+const uint8_t BaseWh_Name[] =  "BaseWh";
+        .dflt = 0
+
+const uint8_t DutyTime_Name[] =  "DutyTime";
+        .dflt = 0
+
+const uint8_t DimModeA_Name[] =  "Dim Mode A";
+        .dflt =         0
+
+const uint8_t DimMaxA_Name[] =  "Dim Max A";
+        .dflt =         DEFAULT_MAX_DUTY
+
+const uint8_t DimMaxA_AH_Name[] =  "Dim Max A AH";
+.dflt= DEFAULT_MAX_DUTY
+
+const uint8_t DimMinA_Name[] =  "Dim Min A";
+        .dflt =         DEFAULT_MIN_DUTY
+
+const uint8_t DimMinA_AH_Name[] =  "Dim Min A AH";
+.dflt= DEFAULT_MIN_DUTY
+
+const uint8_t DimLoadA_Name[] =  "Load A";
+        .dflt =         0
+
+const uint8_t RlyLoadA_Name[] =  "Relay A";
+        .dflt =         1
+
+const uint8_t RlyAux_Name[] =  "Relay Aux";
+        .dflt =         1
+
+const uint8_t Rly24V_Name[] =  "Relay 24V";
+        .dflt =         1
+
+const uint8_t RlyPulseTime_Name[] =  "Relay Pulse Time";
+        .dflt = 200
+
+const uint8_t RlyZeroXOn_Name[] =  "ZeroX On";
+        .dflt =         0
+
+const uint8_t RlyZeroXOff_Name[] =  "ZeroX Off";
+        .dflt =         0
+
+const uint8_t OccEnable_Name[] =  "Occupancy Enable";
+        .dflt =         1
+
+const uint8_t Occupied_Name[] =  "Occupied";
+        .dflt =         0
+
+const uint8_t NH_Timeout_Name[] =  "NH Timeout";
+        .dflt = 150
+
+const uint8_t AH_Timeout_Name[] =  "AH Timeout";
+        .dflt = 150
+
+const uint8_t OccMode_Name[] =  "Occupancy Mode";
+        .dflt =         0
+
+const uint8_t WalkThruEnable_Name[] =  "WalkThru Enable";
+        .dflt = 0
+
+const uint8_t WalkThruEnable_AH_Name[] =  "WalkThru Enable AH";
+        
+        .dflt= 0
+
+const uint8_t OccupiedTime_Name[] =  "Occupied Time";
+        .dflt = 0
+
+const uint8_t DLH_Enable_Name[] =  "DLH Enable";
+        .dflt =         1
+
+const uint8_t DLH_Tuning_Name[] =  "DLH Responsiveness";
+        .dflt =         5
+
+const uint8_t DLH_Min_Name[] =  "DLH Min";
+        .dflt =         10
+
+const uint8_t DLH_Targ_Name[] =  "DLH Target";
+        .dflt =         35
+
+const uint8_t DLH_EnableA_AH_Name[] =  "DLH EnableA AH";
+        .dflt =         1
+
+const uint8_t DLH_MinA_AH_Name[] =  "DLH MinA AH";
+        .dflt =         10
+
+const uint8_t DLH_TargA_AH_Name[] =  "DLH TargetA AH";
+        .dflt =         35
+
+const uint8_t Light_Name[] =  "Light";
+        .dflt =         0
+
+const uint8_t DLH_LMDL_Cal_On_Name[] =  "DLH Daylight On Reading";
+        .dflt =         0
+
+const uint8_t DLH_LMDL_Cal_Off_Name[] =  "DLH Daylight Off Reading";
+        .dflt =         0
+
+const uint8_t DLH_Task_Cal_On_Name[] =  "DLH User: Lights On";
+        .dflt =         175
+
+const uint8_t DLH_Task_Cal_Off_Name[] =  "DLH User: Lights Off";
+        .dflt =         175
+
+const uint8_t Chan_Cmd_Name[] =  "Chan Cmd";
+        .dflt = 0
+
+const uint8_t Chan_Cmd_Stored_Name[] =  "StChan Cmd";
+        .dflt = 0
+
+const uint8_t PtP_LoadIndex_Name[] =  "Load Index";
+        .dflt = 0
+
+const uint8_t REED_Master_Name[] =  "REED Master";
+        .dflt =         0
+
+const uint8_t Room_Name[] =  "Room";
+        .dflt= 0
+
+const uint8_t PnG_Lock_Name[] =  "PnG Lock";
+        .dflt =         0
+
+const uint8_t Occ_Level_Name[] =  "Occ Level";
+        .dflt =  -1
+
+const uint8_t Occ_Level_AH_Name[] =  "Occ Level AH";
+.dflt = -1
+
+const uint8_t Vac_Level_Name[] =  "Vac Level";
+        .dflt =         0
+
+const uint8_t Vac_Level_AH_Name[] =  "Vac Level AH";
+.dflt= 0
+
+uint8_t Device_Name[] =  "Device Name";
+.dflt =         "lmrc-611"
+
+const uint8_t Location_Name[] =  "Location_Name";
+.dflt = "--"
+
+uint8_t Device_ID[] =  "device_id";
+.dflt = "--"
+
+const uint8_t Location_ID[] =  "location_id";
+.dflt = "--"
+
+const uint8_t Updated_At[] =  "updated_at";
+.dflt = "0"
+
+const uint8_t PartialOffA_Name[] =  "Partial Off A";
+.dflt= 0
+
+const uint8_t PartialOffA_AH_Name[] =  "Partial Off A AH";
+.dflt= 0
+
+const uint8_t FadeTripA_Name[] =  "Fade Trip A";
+.dflt= 0
+
+const uint8_t FadeTripA_AH_Name[] =  "Fade Trip A AH";
+.dflt= 0
+
+const uint8_t RevOutput_Name[] =  "Reverse Output";
+.dflt= 0
+
+const uint8_t ShedMax_Name[] =  "Shed Max Pwr";
+.dflt= 0
+
+const uint8_t ShedLevel_Name[] =  "Shed Level";
+.dflt= 0
+
+const uint8_t BlinkWarnGraceA_Name[] =  "Blink Warn Grace A";
+.dflt= 0
+
+const uint8_t BlinkWarnGraceA_AH_Name[] =  "Blink Warn Grace A AH";
+.dflt= 0
+
+const uint8_t BlinkWarnA_Name[] =  "Blink Warn A";
+.dflt= 0
+
+const uint8_t BlinkWarnA_AH_Name[] =  "Blink Warn A AH";
+.dflt= 0
+
+const uint8_t SensorRetriggerA_Name[] =  "Sensor Retrigger A";
+.dflt= 0
+
+const uint8_t SensorRetriggerA_AH_Name[] =  "Sensor Retrigger A AH";
+.dflt= 0
+
+const uint8_t RestoreA_Name[] =  "Restore A";
+.dflt= DEFAULT_RESTORE
+
+const uint8_t RestoreA_AH_Name[] =  "Restore A AH";
+.dflt= DEFAULT_RESTORE
+
+const uint8_t UseLnzA_Name[] =  "Use Last Non Zero A";
+.dflt= 0
+
+const uint8_t UseLnzA_AH_Name[] =  "Use Last Non Zero A AH";
+.dflt= 0
+
+const uint8_t PresetLevelA_Name[] =  "Preset Level A";
+.dflt= 0
+
+const uint8_t PresetLevelA_AH_Name[] =  "Preset Level A AH";
+.dflt= 0
+
+const uint8_t TransitionLevelA_Name[] =  "Transition Level A";
+.dflt= 0
+
+const uint8_t TransitionLevelA_AH_Name[] =  "Transition Level A AH";
+.dflt= 0
+
+const uint8_t TransitionTypeA_Name[] =  "Transition Type A";
+.dflt= 0
+
+const uint8_t TransitionTypeA_AH_Name[] =  "Transition Type A AH";
+.dflt= 0
+
+const uint8_t POST_Status_Name[] =  "POST Status";
+.dflt = 0

@@ -2,7 +2,7 @@ from . import factory_rst_test
 from . import scc
 from pylat import get_config
 
-class Test_BLE_Device(coap_request_jeremy.Coap_Request_Tests):
+class Test_BLE_Device(factory_rst_test.Coap_Request_Tests):
     available_endpoints = []
 
     @classmethod

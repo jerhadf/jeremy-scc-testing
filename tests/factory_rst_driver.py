@@ -1,4 +1,4 @@
-from . import coap_request_jeremy
+from . import factory_rst_test
 from . import scc
 from pylat import get_config
 
